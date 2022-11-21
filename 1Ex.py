@@ -42,5 +42,36 @@
 #     print(num, " is odd")
 
  #Ex 8
-my_list = [2, 5, 6, 84, 240, 25, 152, 421, 325]
-print(max(my_list))
+# my_list = [2, 5, 6, 84, 240, 25, 152, 421, 325]
+# print(max(my_list))
+
+ #Ex 9
+# num = int(input("Enter any number to check its' prime or not: "))
+# counter = 0
+#
+# for x in range(2, num):
+#     if (num % x == 0):
+#         counter = counter + 1
+#
+# if (counter==0):
+#     print("It's prime number")
+# else:
+#     print("It's not prime number")
+
+
+ #Ex 10
+# import math
+# number = 7
+# print(math.factorial(number))
+
+# Solution 2
+# number = int(input("Enter any number: "))
+# fact = 1
+#
+# for x in range(1, number+1):
+#     fact = fact * x
+# print("Factorial of ", number, " is:", fact)
+
+ #Ex 11
+# letter = input("Enter a character: ")
+# print("ASCII value of ", letter, " is:", ord(letter))
