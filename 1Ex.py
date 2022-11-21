@@ -75,3 +75,9 @@
  #Ex 11
 # letter = input("Enter a character: ")
 # print("ASCII value of ", letter, " is:", ord(letter))
+
+ #Ex12
+# import datetime
+# today = datetime.date.today()
+# print("Today's date is: ", today)
+
