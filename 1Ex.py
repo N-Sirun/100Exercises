@@ -67,7 +67,7 @@
 # Solution 2
 # number = int(input("Enter any number: "))
 # fact = 1
-#
+
 # for x in range(1, number+1):
 #     fact = fact * x
 # print("Factorial of ", number, " is:", fact)
@@ -175,4 +175,13 @@
 # num2 = 3
 # print("The LCM of number is:", find_lcm(num1, num2))
 
- #Ex23
+ #Ex24
+
+# my_str = "Hello, I am super programmer of python language."
+# words = [word.upper() for word in my_str.split()]
+# words.sort()
+# print("The sorted words are: ")
+# for word in words:
+#     print(word)
+
+ #Ex25
