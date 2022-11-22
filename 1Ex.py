@@ -143,3 +143,36 @@
 
  #Ex20
 
+# year = int(input("Enter the year: "))
+#
+# if (year % 400) == 0 and (year % 100) == 0:
+#     print(f'{year} Year is leap year')
+# elif (year % 4) == 0 and (year % 100) != 0:
+#     print(f'{year} Year is leap year')
+# else:
+#     print(f'{year} is not leap year')
+
+ #Ex21
+
+# n = int(input("Enter positive number: "))
+# n = int(n * (n + 1) / 2)
+# print(f'Sum of natural number is: {n}')
+
+ #Ex22
+
+# def find_lcm(x, y):
+#     if x > y:
+#         greater = x
+#     else: greater = y
+#
+#     while (True):
+#         if ((greater % x == 0) and (greater % y == 0)):
+#             lcm = greater
+#             break
+#         greater += 1
+#     return lcm
+# num1 = 2
+# num2 = 3
+# print("The LCM of number is:", find_lcm(num1, num2))
+
+ #Ex23
