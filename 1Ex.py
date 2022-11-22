@@ -184,4 +184,38 @@
 # for word in words:
 #     print(word)
 
- #Ex25
+ #Ex25 Ex26
+
+# list1 = ['f', 'g', 'i', 'o', 'a', 'e', 'f', 'x', 'd']
+# sorted_list = sorted(list1)
+# desc_order = sorted(list1, reverse=True)
+# print("The sorted letters are: ", sorted_list)
+# print("The sorted letters in descending order are: ", desc_order)
+
+
+ #Ex27 Ex28
+
+# for i in range(2, 20, 2):
+#
+#     print(i)
+# for num in range(1, 20, 2):
+#     print(num)
+
+ #Ex28
+
+# lower = 1
+# upper = 30
+# print(f'All prime numbers between {lower} and {upper} are:')
+# for num in range(lower, upper + 1 ):
+#     if num > 1:
+#         for i in range(2, num):
+#             if (num % i) == 0:
+#                 break
+#         else:
+#             print(num)
+
+ #Ex31
+
+string_my = "Hello, I am the greatest, super programmer!"
+print(string_my.replace(",", ""))
+
