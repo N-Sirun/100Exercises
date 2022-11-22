@@ -216,6 +216,20 @@
 
  #Ex31
 
-string_my = "Hello, I am the greatest, super programmer!"
-print(string_my.replace(",", ""))
+# string_my = "Hello, I am the greatest, super programmer!"
+# print(string_my.replace(",", ""))
 
+ #Ex32
+
+# list1 = ['f','g', 'g', 'y', 'o', 'y', 'o', 'a']
+# print(list1)
+# print(list(dict.fromkeys(list1)))
+# print(list(set(list1)))
+
+ #Ex33 Ex34
+
+# list1 = [200,38,4,7,4,5,66,4,88,13,22,55,70,5]
+# print("The smallest number is: ", min(list1))
+# print("The largest number is: ", max(list1))
+
+ #Ex35
