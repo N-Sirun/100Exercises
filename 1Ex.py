@@ -233,3 +233,17 @@
 # print("The largest number is: ", max(list1))
 
  #Ex35
+# ch = str(input("Enter any single letter: "))
+# if (ch =='a' or ch== 'e' or ch== 'i' or ch =='o' or ch== 'u'
+# or ch =='A' or ch== 'E' or ch== 'I' or ch=='O' or ch== 'U' ):
+#     print(f"Character {ch} is vowel")
+# else:
+#     print(f"Character {ch} is consonant")
+
+ #Ex36
+# list1 = [1,2,7,3,4,8,9]
+# print(sum(list1))
+
+ #Ex37
+num = int(input("Enter number: "))
+print(len(str(num)))
