@@ -103,3 +103,43 @@
 # for r in result:
 #    print(r)
 
+ #Ex15
+# list = ["g","d","r","j","a","e"]
+# sorted = list.sort()
+# print(list)
+
+ #Ex16
+# from statistics import mode
+# list1 = [2,5,4,7,8,1,8,1,9,8,9,8,3,8,]
+# frequent_num = mode(list1)
+# print("Most frequent number is: ", frequent_num)
+
+ #Ex17
+
+# a = 14
+# b = 8
+# c = 10
+# s = (a + b + c) / 2
+# area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+# print("Area of triangle is: ", area)
+
+ #Ex18
+
+# name = "James"
+# last = "Bond"
+# print(f'Hi, I am {last}, {name} {last}... Nice to meet you! ')
+#
+# kilometres = 6.7
+# conversion = 0.621371
+# miles = kilometres * conversion
+# print(miles)
+
+ #Ex19
+
+# import calendar
+# yy = 1986
+# mm = 12
+# print(calendar.month(yy, mm))
+
+ #Ex20
+
