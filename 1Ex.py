@@ -314,9 +314,40 @@
 
  #Ex56
 
-# minutes = int(input("Enter minutes to convert into second: "))
+# minutes = int(input("Enter minutes to convert into seconds: "))
 # conversion_rate = 60
 # seconds = conversion_rate * minutes
 # print(f"{minutes} minutes are {seconds} seconds")
 
  #Ex57
+
+# hours = int(input("Enter hours to convert into seconds: "))
+# conversion_rate = 3600
+# seconds = conversion_rate * hours
+# print(f"{hours} minutes are {seconds} seconds")
+
+ #Ex58
+
+# from datetime import datetime
+#
+# str_d1 = '2013/01/02'
+# str_d2 = '2022/11/23'
+#
+# d1 = datetime.strptime(str_d1, "%Y/%m/%d")
+# d2 = datetime.strptime(str_d2, "%Y/%m/%d")
+# delta = d2 - d1
+# print(f'Difference between dates are: {delta.days} days')
+
+ #Ex59
+
+# list1 = [1,2,3,4,5,6]
+# list2 = [7,8,9,10]
+# new_list = list1 + list2
+# print(new_list)
+#
+# list1 = [1,2,3,4,5,6]
+# list2 = [7,8,9,10]
+# list1.extend(list2)
+# print(list1)
+
+ #Ex60
