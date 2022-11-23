@@ -245,5 +245,13 @@
 # print(sum(list1))
 
  #Ex37
-num = int(input("Enter number: "))
-print(len(str(num)))
+# num = int(input("Enter number: "))
+# print(len(str(num)))
+
+ #Ex38
+
+# list1 = [2,8,3,4,2,8,3,8,7,9,2,3,5,11,92,73]
+# unique_list1 = list(set(list1))
+# print(unique_list1)
+
+ #Ex39
