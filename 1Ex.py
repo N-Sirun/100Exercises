@@ -254,4 +254,10 @@
 # unique_list1 = list(set(list1))
 # print(unique_list1)
 
- #Ex39
+ #Ex39 Ex40
+string1 = "I am python auto engineer"
+count_words = len(string1.split())
+print(count_words) #counting words in string
+print(string1.count("o")) #counting specific letters in string
+
+
