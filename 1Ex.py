@@ -283,4 +283,40 @@
 # str1 = ["I", "want", "to", "become", "an", "engineer"]
 # print(" ".join(str1))
 
+ #Ex45 Ex46
+# str1 = "hello i am very nice person"
+# print(str1.upper())
+# str2 = "HERE ARE MY STRINGS"
+# print(str2.lower())
 
+ #Ex47 Ex48
+
+# print("\t * \n\t* *\n   * * *\n  * * * *\n * * * * *")
+# print("")
+# print(" * * * * * *\n  * * * * *\n   * * * *\n\t* * *\n\t * *\n\t  * ")
+#print("*****\n*****")
+
+ #Ex54
+
+# ascii_num = 65
+# rows = 5
+# for i in range(0, rows):
+#     for j in range(0, i * 1):
+#         character = chr(ascii_num)
+#         print(character, end=' ')
+#         ascii_num += 1
+#     print("")
+
+ #Ex55
+# list1 = ["d", "r", "y", "a", "w"]
+# list1.pop(1)
+# print(list1)
+
+ #Ex56
+
+# minutes = int(input("Enter minutes to convert into second: "))
+# conversion_rate = 60
+# seconds = conversion_rate * minutes
+# print(f"{minutes} minutes are {seconds} seconds")
+
+ #Ex57
