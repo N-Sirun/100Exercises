@@ -255,9 +255,32 @@
 # print(unique_list1)
 
  #Ex39 Ex40
-string1 = "I am python auto engineer"
-count_words = len(string1.split())
-print(count_words) #counting words in string
-print(string1.count("o")) #counting specific letters in string
+# string1 = "I am python auto engineer"
+# count_words = len(string1.split())
+# print(count_words) #counting words in string
+# print(string1.count("o")) #counting specific letters in string
+
+ #Ex41
+
+# str1 = "I want to become python test automation engineer"
+# str2 = len(str1.split())
+# if len(str1) == 0:
+#     print("The string is empty")
+# else:
+#     print(f"The string contains {str2} words")
+
+ #Ex42
+
+# str1 = "222310"
+# print(int(str1))
+
+ #Ex43
+# str1 = "HelloPretty"
+# print(str1[::-1])
+
+ #Ex44
+
+# str1 = ["I", "want", "to", "become", "an", "engineer"]
+# print(" ".join(str1))
 
 
