@@ -350,4 +350,13 @@
 # list1.extend(list2)
 # print(list1)
 
- #Ex60
+ #Ex60 Ex61
+
+# decimal = 78
+# new_bin = bin(decimal).replace('0b', '')
+# print(int(new_bin))
+# n = "1101001"
+# decimal_number = int(n, 2)
+# print(decimal_number)
+
+
