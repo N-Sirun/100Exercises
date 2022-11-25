@@ -1,3 +1,5 @@
+
+# Source: https://www.youtube.com/watch?v=a6DPueTvN50&list=PLsuPPYtgPYnlZEuByK0tYMPYHRRrt0lej&index=7&t=28s
  #Ex 2
 # num1 = int(input("Enter number 1 : "))
 # num2 = int(input("Enter number 2 : "))
@@ -359,4 +361,22 @@
 # decimal_number = int(n, 2)
 # print(decimal_number)
 
+ #Ex67
 
+# list1 = [3,7,5,8,1,9,13,42,41,57,16,17,35,91]
+# prime = []
+# for i in list1:
+#     c=0
+#     for j in range(1,i):
+#         if i%j==0:
+#             c+=1
+#     if c==1:
+#         prime.append(i)
+# print(prime)
+
+ #Ex70
+# list1 = [3,7000,2.5,8,1,-9,13,42,-41,-57,16,17,-35,91]
+# def average(list1):
+#     return sum(list1) / len(list1)
+# average_num = average(list1)
+# print(round(average_num))
